@@ -15,5 +15,5 @@
   {% capture include_to_scssify %}
   {% include main.scss %}
   {% endcapture %}
-  {{ include_to_scssify | scssify | strip_newlines }}
+  {{ include_to_scssify | scssify | remove_first: '@charset "UTF-8";' | strip_newlines }}
 </style>
