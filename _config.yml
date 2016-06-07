@@ -8,3 +8,5 @@ url: "https://craftship.io"
 
 # Build settings
 markdown: kramdown
+compress_html:
+  clippings: all
