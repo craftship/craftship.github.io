@@ -1,0 +1,63 @@
+---
+layout: default
+title: Tech We Use
+
+cd:
+  - Docker
+  - CircleCI
+  - Jenkins
+  - CodeShip
+  - Amazon CodePipeline
+infrastructure:
+  - Docker Cloud
+  - Amazon Compute
+  - Amazon ECS
+  - Amazon ElasticBeanstalk
+  - Digital Ocean
+backend:
+  - Node.js
+  - Ruby / Rails
+  - Express
+  - Restify
+  - Golang
+frontend:
+  - React.js
+  - Redux
+  - Cycle.js
+  - ClojureScript
+  - Elm
+testing:
+  - Mocha
+  - Chai
+  - Sinon
+  - Selenium
+  - Enzyme
+data:
+  - ElasticSearch
+  - Postgres
+  - Redis
+  - MongoDB
+  - Firebase
+
+---
+
+<section class="row">
+  {%
+    include shared/page-heading.html
+    icon="icon_pencil.svg"
+    heading="Tech We Use"
+    subheading="Checkout out the latest tech stack we are involed with."
+    icon_alt="Tech we use, so many new things to learn, so little time."
+  %}
+</section>
+<section class="content row">
+{%
+  include tech-we-use/stacks.html
+  cd=page.cd
+  infrastructure=page.infrastructure
+  backend=page.backend
+  frontend=page.frontend
+  testing=page.testing
+  data=page.data
+%}
+</section>

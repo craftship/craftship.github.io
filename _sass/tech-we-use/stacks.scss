@@ -1,0 +1,19 @@
+.stack {
+  height: 250px;
+}
+
+.stack__icon {
+  float: left;
+}
+
+.stack__list {
+  padding-left: 90px;
+  font-size: 1.2em;
+
+  ul {
+    li {
+      float: none;
+      margin-bottom: 0;
+    }
+  }
+}

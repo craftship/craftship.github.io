@@ -1,0 +1,16 @@
+<div class="value u-cf">
+  <div class="value__icon">
+    {%
+      include shared/image.html
+      image=include.icon
+      alt="Icon"
+      layout="fixed"
+      height="70"
+      width="70"
+    %}
+  </div>
+  <div class="value__content">
+    <h3>{{ include.heading }}.</h3>
+    <p>{{ include.text }}</p>
+  </div>
+</div>

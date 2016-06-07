@@ -1,0 +1,31 @@
+---
+layout: blog
+---
+<section class="row">
+  {%
+    include shared/page-heading.html
+    icon="icon_coffee.svg"
+    heading=page.title
+    subheading=page.abstract
+    icon_alt="Blog, time to grab a coffee."
+  %}
+</section>
+
+<article
+  class="content row"
+  itemscope
+  itemtype="http://schema.org/BlogPosting">
+  <div class="post-image">
+    {%
+      include shared/image.html
+      image="blog_wework_office.png"
+      alt="Picture of WeWork Office Panorama"
+      layout="responsive"
+      height="200"
+      width="1170"
+    %}
+  </div>
+  <div class="content">
+    {{ content }}
+  </div>
+</article>

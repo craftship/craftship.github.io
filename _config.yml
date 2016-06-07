@@ -1,0 +1,10 @@
+# Site settings
+title: Craftship
+email: hello@craftship.io
+description: >
+  Craftship is a team of industry experienced engineers.
+baseurl: ""
+url: "https://craftship.io"
+
+# Build settings
+markdown: kramdown

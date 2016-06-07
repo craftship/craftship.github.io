@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="97px" height="93px" viewBox="0 0 97 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 90.82 94.62 90.82 94.62 0 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-61.000000, -730.000000)">
+            <g id="Page-1" transform="translate(62.000000, 731.000000)">
+                <path d="M20.71,51.111444 C15.84676,51.111444 10.982,49.257804 7.27244,45.549764 C3.56516,41.832604 1.71,36.975444 1.71,32.112204 L1.71,13.112204 L92.91,13.112204 L92.91,32.112204 C92.91,36.975444 91.0556,41.832604 87.3468,45.549764 C83.638,49.257804 78.774,51.111444 73.91,51.111444 L20.71,51.111444 L20.71,51.111444 Z" id="Stroke-1" stroke="#323232" stroke-width="4.5"></path>
+                <path d="M66.31,51.111444 L28.31,51.111444" id="Stroke-3" stroke="#323232" stroke-width="4.5"></path>
+                <path d="M92.91,51.11 L92.91,81.51 C92.91,83.45484 92.16748,85.40044 90.68396,86.88472 C89.19968,88.36748 87.2556,89.11 85.31,89.11 L9.31,89.11 C7.36516,89.11 5.42032,88.36748 3.93604,86.88472 C2.45252,85.40044 1.71,83.45484 1.71,81.51 L1.71,51.11" id="Stroke-5" stroke="#323232" stroke-width="4.5"></path>
+                <path d="M67.07,13.11 L67.07,7.03 C67.07,5.66884 66.55016,4.30768 65.512,3.26876 C64.47308,2.22984 63.11116,1.71 61.75,1.71 L32.87,1.71 C31.50808,1.71 30.14692,2.22984 29.108,3.26876 C28.06984,4.30768 27.55,5.66884 27.55,7.03 L27.55,13.11" id="Stroke-7" stroke="#323232" stroke-width="4.5"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-10"></g>
+                <polygon id="Stroke-9" stroke="#323232" stroke-width="4.5" mask="url(#mask-2)" points="20.71 58.71 28.31 58.71 28.31 43.51 20.71 43.51"></polygon>
+                <polygon id="Stroke-11" stroke="#323232" stroke-width="4.5" mask="url(#mask-2)" points="66.31 58.71 73.91 58.71 73.91 43.51 66.31 43.51"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

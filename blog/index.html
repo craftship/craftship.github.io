@@ -1,0 +1,30 @@
+---
+layout: default
+title: Blog
+---
+
+<section class="row">
+  {%
+    include shared/page-heading.html
+    icon="icon_coffee.svg"
+    heading="Blog"
+    subheading="Thoughts, ideas and experiences."
+    icon_alt="Blog, time to grab a coffee."
+  %}
+</section>
+
+<section class="content row">
+  <div class="twelve columns">
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}" title="{{ post.title }}">
+            <h3>{{ post.title }}</h3>
+          </a>
+          <p>{{ post.abstract }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+

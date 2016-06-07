@@ -1,0 +1,20 @@
+<div class="stack">
+  <div class="stack__icon">
+    {%
+      include shared/image.html
+      image=include.icon
+      alt="Icon"
+      layout="fixed"
+      height="60"
+      width="60"
+    %}
+  </div>
+  <div class="stack__list">
+    <h3>{{ include.heading }}.</h3>
+    <ul>
+      {% for tech in include.stack %}
+        <li>{{ tech }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
