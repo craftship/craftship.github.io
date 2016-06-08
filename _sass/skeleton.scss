@@ -214,12 +214,6 @@
   }
 }
 
-/* Base Styles
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* NOTE
-html is set to 62.5% so that all the REM measurements throughout Skeleton
-are based on 10px sizing. So basically 1.5rem = 15px :) */
-
 html {
   font-size: 62.5%;
 }
@@ -233,9 +227,6 @@ body {
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222;
 }
-
-/* Typography
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -310,9 +301,6 @@ p {
   margin-top: 0;
 }
 
-/* Links
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 a {
   color: #1EAEDB;
 
@@ -320,9 +308,6 @@ a {
     color: #0FA0CE;
   }
 }
-
-/* Buttons
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .button, button {
   display: inline-block;
@@ -438,8 +423,6 @@ input {
   &[type="email"], &[type="number"], &[type="search"], &[type="text"], &[type="tel"], &[type="url"], &[type="password"] {
     height: 38px;
     padding: 6px 10px;
-
-    /* The 6px vertically centers text on FF, ignored by Webkit */
     background-color: #fff;
     border: 1px solid #D1D1D1;
     border-radius: 4px;
@@ -448,22 +431,15 @@ input {
   }
 }
 
-/* Forms
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 textarea, select {
   height: 38px;
   padding: 6px 10px;
-
-  /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
   border: 1px solid #D1D1D1;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box;
 }
-
-/* Removes awkward default styles on some inputs for iOS */
 
 input {
   &[type="email"], &[type="number"], &[type="search"], &[type="text"], &[type="tel"], &[type="url"], &[type="password"] {
@@ -517,9 +493,6 @@ label > .label-body {
   font-weight: normal;
 }
 
-/* Lists
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 ul {
   list-style: circle inside;
 }
@@ -551,9 +524,6 @@ li {
   margin-bottom: 1rem;
 }
 
-/* Code
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 code {
   padding: .2rem .5rem;
   margin: 0 .2rem;
@@ -570,9 +540,6 @@ pre > code {
   white-space: pre;
 }
 
-/* Tables
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 th, td {
   padding: 12px 15px;
   text-align: left;
@@ -587,9 +554,6 @@ th:last-child, td:last-child {
   padding-right: 0;
 }
 
-/* Spacing
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 button, .button {
   margin-bottom: 1rem;
 }
@@ -601,9 +565,6 @@ input, textarea, select, fieldset {
 pre, blockquote, dl, figure, table, p, ul, ol, form {
   margin-bottom: 2.5rem;
 }
-
-/* Utilities
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .u-full-width {
   width: 100%;
@@ -623,9 +584,6 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
   float: left;
 }
 
-/* Misc
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
@@ -633,38 +591,15 @@ hr {
   border-top: 1px solid #E1E1E1;
 }
 
-/* Clearing
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-/* Self Clearing Goodness */
-
 .container:after, .row:after, .u-cf {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Media Queries
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
-Note: The best way to structure the use of media queries is to create the queries
-near the relevant code. For example, if you wanted to change the styles for buttons
-on small devices, paste the mobile query code up in the buttons section and style it
-there.
-*/
-
-/* Larger than mobile */
 @media (min-width: 400px) {}
-
-/* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}
-
-/* Larger than tablet */
 @media (min-width: 750px) {}
-
-/* Larger than desktop */
 @media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
 @media (min-width: 1200px) {}
 
