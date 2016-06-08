@@ -7,26 +7,6 @@
 * 12/29/2014
 */
 
-/* Table of contents
-––––––––––––––––––––––––––––––––––––––––––––––––––
-- Grid
-- Base Styles
-- Typography
-- Links
-- Buttons
-- Forms
-- Lists
-- Code
-- Tables
-- Spacing
-- Utilities
-- Clearing
-- Media Queries
-*/
-
-/* Grid
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 .container {
   position: relative;
   width: 100%;
@@ -42,7 +22,6 @@
   box-sizing: border-box;
 }
 
-/* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
     width: 85%;
@@ -50,7 +29,6 @@
   }
 }
 
-/* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
     width: 80%;
@@ -126,8 +104,6 @@
   .one-half.column {
     width: 48%;
   }
-
-  /* Offsets */
 
   .offset-by-one {
     &.column, &.columns {
@@ -220,8 +196,6 @@ html {
 
 body {
   font-size: 1.5em;
-
-  /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -270,7 +244,6 @@ h6 {
   letter-spacing: 0;
 }
 
-/* Larger than phablet */
 @media (min-width: 550px) {
   h1 {
     font-size: 5.0rem;
