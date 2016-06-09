@@ -6,6 +6,11 @@
   float: left;
   min-height: 70px;
   min-width: 70px;
+
+  span {
+    color: $secondary-color;
+    font-size: 60px;
+  }
 }
 
 .value__content {

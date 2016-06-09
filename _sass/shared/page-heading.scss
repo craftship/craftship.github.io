@@ -4,4 +4,10 @@
 
 .page-heading__icon {
   float: right;
+
+  span {
+    color: $icon-color;
+    font-size: 100px;
+    padding-right: 20px;
+  }
 }

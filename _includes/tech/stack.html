@@ -1,13 +1,6 @@
 <div class="stack">
   <div class="stack__icon">
-    {%
-      include shared/image.html
-      image=include.icon
-      alt="Icon"
-      layout="fixed"
-      height="60"
-      width="60"
-    %}
+    {% include shared/icon.html icon=include.icon %}
   </div>
   <div class="stack__list">
     <h3>{{ include.heading }}.</h3>
