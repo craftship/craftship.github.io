@@ -1,9 +1,11 @@
 .value {
-  height: 250px;
+  min-height: 250px;
 }
 
 .value__icon {
   float: left;
+  min-height: 70px;
+  min-width: 70px;
 }
 
 .value__content {
