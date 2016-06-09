@@ -5,6 +5,8 @@ date: 2016-06-05 11:09:48 +0100
 categories: craftship launch
 abstract: "A new home, a new blog."
 author: Jon Sharratt
+hero_image: blog_wework_office.png
+hero_image_alt: "Panorama of WeWork office, Old St."
 ---
 So over the past weeks I have been getting set up in a new office based
 just of the Old St. roundabout at WeWork.
