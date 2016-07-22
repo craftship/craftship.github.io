@@ -1,4 +1,10 @@
 .icons {
+  display: none;
+
+  @media (min-width: 401px) {
+    display: block;
+  }
+
   span {
     color: $icon-color;
     font-size: 95px;
