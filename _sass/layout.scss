@@ -63,6 +63,10 @@ p {
   color: $primary-color;
 }
 
+img {
+  max-width: 100%;
+}
+
 a {
   color: $menu-color;
   text-decoration: none;
