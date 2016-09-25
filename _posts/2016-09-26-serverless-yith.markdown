@@ -9,29 +9,24 @@ hero_image: blog_wework_office.png
 hero_image_alt: "Panorama of WeWork office, Old St."
 ---
 
-The Craftship team have been working away on a new Open Source project
-to help organizations where they are required to keep intellectual
-property but still wish to share modules across teams and use npm
-modules in the wider world.  Normally these organizations
-have GitHub Enterprise to fulfill their needs of security.
+The Craftship team have been working on a new Open Source project
+to help organizations that require keep intellectual property but still
+wish to share modules across teams and use npm modules from the offical registry.
 
-Having worked in many large organizations a compelling reason is that most have
-a standard joiners and leavers policy across the thousands of employees
-they have working for them of which all third party systems
-need to have single sign on (normally via LDAP) so that they can ensure access control
-is centralised in one place.
+Having worked in many large organizations they use GitHub Enterprise
+which helps give them the ability to have a standard joiners and leavers policy
+across thousands of employees of which all third party systems need to have single
+sign on (normally via LDAP) so that they can ensure access control is managed in one place.
 
 One thing to note is that GitHub have recently announced at their GitHub Universe
 conference they are rolling out SSO for SAML based authentication amongst a whole heap of
 exciting [new features](https://github.com/blog/2256-a-whole-new-github-universe-announcing-new-tools-forums-and-features).
-We are hoping this means that in the enterprise companies will look to
-analyze the use of using hosted GitHub rather than having a team to
-manage it internally.
+We are hoping this means that in the enterprise organizations  will look to use hosted GitHub rather than having the overhead of managing it internally.
 
 ![Serverless astract imge](/images/blog_yith_serverless.png)
 
 ### What is yith?
-Yith is a private npm registry that uses [Serverless framework](https://serverless.com/) to
+Yith is a private npm registry that uses the [Serverless framework](https://serverless.com/) to
 reduce cost and overhead of any instances required in your cloud
 provider (currently AWS) to host a private npm registry.
 
@@ -47,7 +42,7 @@ run and produce the relevant response required for the `npm` CLI.
 
 We basically used [Charles](https://www.charlesproxy.com/) to sniff the `https`
 requests being made by the npm CLI and replicated the endpoints (which are ultimately
-CouchDB) :D
+is CouchDB) :D
 
 ![yith cloud diagram](/images/blog_yith_diagram.png)
 
