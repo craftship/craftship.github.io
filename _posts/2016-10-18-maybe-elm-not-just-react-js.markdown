@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "'Maybe' Elm, Not 'Just' React.js"
-categories: elm react redux functional rective javascript
+categories: elm react redux functional reactive javascript
 abstract: "Try out Elm, a functional reactive programming language"
 author: Jon Sharratt
 hero_image: blog_wework_office.png
@@ -30,6 +30,10 @@ Easier to maintain, refactor and less buggy code before runtime.
 Encapsulate code into single units of work.
 
 [Babel: Transform ES2015 Modules](http://babeljs.io/docs/plugins/transform-es2015-modules-commonjs/)
+
+**Side note:**
+
+Babel presets also required in order to have latest language syntax to make our developer experience better.
 
 ##### Predictable State / Immutability
 Predictable state management with often better performance.
