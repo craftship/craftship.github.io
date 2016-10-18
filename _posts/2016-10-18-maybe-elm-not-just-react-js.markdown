@@ -22,7 +22,7 @@ Declarative views that can be re-used and that are easy to debug.
 [React.js](https://facebook.github.io/react/)
 
 ##### Typed
-Easier to maintain and refactor, less buggy code before runtime.
+Easier to maintain, refactor and less buggy code before runtime.
 
 [Flow](https://github.com/facebook/flow)
 
