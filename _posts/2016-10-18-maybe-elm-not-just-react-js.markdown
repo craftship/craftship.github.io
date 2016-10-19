@@ -98,6 +98,6 @@ This is great for the community of packages being published and gives incredible
 
 ### In Summary
 
-So when you start looking into your next web project.  Don't just think grabbing your `npm init` and `npm i` tooling maybe give Elm, a new language a try.  We are convinced teams will fall in love with what is shaping up to be a fantastic modern day language for the web.
+So when you start looking into your next web project.  Don't just think of grabbing your default `npm init` and `npm i` tooling, maybe give Elm a try.  We are convinced teams will fall in love with what is shaping up to be a fantastic modern day language for the web.
 
 Check out this awesome post on [How to use Elm at Work](http://elm-lang.org/blog/how-to-use-elm-at-work) or [get in touch](hello@craftship.io) with us to see how we can help.
