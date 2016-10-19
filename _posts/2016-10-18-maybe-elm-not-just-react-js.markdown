@@ -63,7 +63,7 @@ If you break the back and get into the language you very quickly realise you are
 
 ##### Typed
 
-Built-in support for type annotations as well as type annotations.  This is where the star of the show kicks in, the compiler.  Error messaging and debug information of coding mistakes happens before runtime.  NoRedInk where Evan Czaplicki the creator of Elm currently works claim to have been using it **in production over a couple of years with 0 runtime errors**.  Just impressive to say the least.
+Built-in support for type annotations as well as type inference.  This is where the star of the show kicks in, the compiler.  Error messaging and debug information of coding mistakes happens before runtime.  NoRedInk where Evan Czaplicki the creator of Elm currently works claim to have been using it **in production over a couple of years with 0 runtime errors**.  Just impressive to say the least.
 
 ##### Module Loading
 
