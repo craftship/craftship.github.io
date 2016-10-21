@@ -2,7 +2,7 @@
 layout: post
 title: "'Maybe' Elm, Not 'Just' React.js"
 categories: elm react redux functional reactive javascript
-abstract: "Try out Elm, a functional reactive programming language"
+abstract: "Try out Elm, a functional reactive programming language."
 author: Jon Sharratt
 hero_image: blog_wework_office.png
 hero_image_alt: "Panorama of WeWork office, Old St."
