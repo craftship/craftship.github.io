@@ -53,3 +53,5 @@ I have uploaded the WebGL builds direct from Unity of my projects for the introd
 Currently I am working through principles of game design which is much more on how to structure games, from the story to mechanics, characters and prototyping ideas.  I need to come up with a game idea and 'Find the fun!'.  Ultimately the end goal is to have a fully fledged out game design document that can actually start being built.
 
 Watch this space!
+
+Jon Sharratt
