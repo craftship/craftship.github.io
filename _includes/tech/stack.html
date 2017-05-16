@@ -1,0 +1,13 @@
+<div class="stack">
+  <div class="stack__icon">
+    {% include shared/icon.html icon=include.icon %}
+  </div>
+  <div class="stack__list">
+    <h3>{{ include.heading }}.</h3>
+    <ul>
+      {% for tech in include.stack %}
+        <li>{{ tech }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

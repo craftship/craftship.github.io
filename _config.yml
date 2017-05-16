@@ -1,0 +1,14 @@
+# Site settings
+title: Craftship
+email: hello@craftship.io
+description: >
+  Craftship is a team of social and experienced software engineers.
+  We are engineers that simply love what we do.
+  Working with you as a cross-functional team to craft software with amazing tech, customer experiences and whole heap of pragmatism.
+baseurl: ""
+url: "https://craftship.io"
+
+# Build settings
+markdown: kramdown
+compress_html:
+  clippings: all

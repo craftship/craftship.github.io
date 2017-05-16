@@ -1,0 +1,14 @@
+.page-heading__text {
+  float: left;
+}
+
+.page-heading__icon {
+  float: right;
+  margin-bottom: 25px;
+
+  span {
+    color: $icon-color;
+    font-size: 100px;
+    padding-right: 20px;
+  }
+}

@@ -1,0 +1,68 @@
+---
+layout: default
+title: Tech
+excerpt: Craftship loves new tech, checkout the tech that we love to use.
+
+cd:
+  - Circle
+  - Travis
+  - Jenkins
+  - CodeShip
+  - Amazon CodePipeline
+infrastructure:
+  - Serverless
+  - Docker Cloud
+  - Amazon Compute
+  - Amazon ECS
+  - Amazon ElasticBeanstalk
+  - Digital Ocean
+backend:
+  - Node.js
+  - Ruby / Rails
+  - Express
+  - Restify
+  - Golang
+frontend:
+  - React.js
+  - Redux
+  - Cycle.js
+  - ClojureScript
+  - Elm
+testing:
+  - Mocha
+  - Chai
+  - Sinon
+  - Selenium
+  - Jest
+  - Enzyme
+data:
+  - Datomic
+  - Firebase
+  - ElasticSearch
+  - Postgres
+  - Redis
+  - MongoDB
+
+---
+
+<section class="row">
+  {%
+    include shared/page-heading.html
+    icon="pencil"
+    heading="Tech"
+    subheading="Cutting edge tech that we love to use."
+    icon_alt="Tech stacks. So many new things to learn, so little time."
+  %}
+</section>
+
+<section class="content row">
+{%
+  include tech/stacks.html
+  cd=page.cd
+  infrastructure=page.infrastructure
+  backend=page.backend
+  frontend=page.frontend
+  testing=page.testing
+  data=page.data
+%}
+</section>

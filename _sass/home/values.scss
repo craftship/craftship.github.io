@@ -1,0 +1,19 @@
+.value {
+  min-height: 250px;
+}
+
+.value__icon {
+  float: left;
+  min-height: 70px;
+  min-width: 70px;
+
+  span {
+    color: $secondary-color;
+    font-size: 60px;
+  }
+}
+
+.value__content {
+  padding-left: 90px;
+  font-size: 1.2em;
+}

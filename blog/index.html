@@ -1,0 +1,50 @@
+---
+layout: default
+title: Blog
+---
+
+<section class="row">
+  {%
+    include shared/page-heading.html
+    icon="coffee"
+    heading="Blog"
+    subheading="Thoughts, ideas and experiences."
+    icon_alt="Blog, time to grab a coffee."
+  %}
+</section>
+
+<section class="content row">
+  <div class="twelve columns">
+    <div class="row">
+      {% for post in site.posts limit: 2 %}
+        <div class="six columns">
+          <a href="{{ post.url }}" title="{{ post.title }}">
+            <h3>{{ post.title }}</h3>
+          </a>
+          <p>{{ post.abstract }}</p>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="row">
+      {% for post in site.posts limit: 2 offset: 2 %}
+        <div class="six columns">
+          <a href="{{ post.url }}" title="{{ post.title }}">
+            <h3>{{ post.title }}</h3>
+          </a>
+          <p>{{ post.abstract }}</p>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="row">
+      {% for post in site.posts limit: 2 offset: 4 %}
+        <div class="six columns">
+          <a href="{{ post.url }}" title="{{ post.title }}">
+            <h3>{{ post.title }}</h3>
+          </a>
+          <p>{{ post.abstract }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+

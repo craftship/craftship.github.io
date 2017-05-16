@@ -1,0 +1,39 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ page.title }}",
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ site.url }}/images/{{ page.hero_image }}",
+    "height": "1170px",
+    "width": "200px"
+  },
+  "editor": "{{ page.author }}",
+  "genre": "{{ page.genre }}",
+  "keywords": "{{ page.categories }}",
+  "wordcount": "{{ page.content | number_of_words}}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/images/logo.png",
+      "width": "60px",
+      "height": "120px"
+    }
+  },
+  "url": "{{ site.url }}",
+  "datePublished": "{{ page.date }}",
+  "dateCreated": "{{ page.date }}",
+  "dateModified": "{{ page.date }}",
+  "description": "{{ page.abstract }}",
+  "articleBody": "{{ page.content }}",
+  "mainEntityOfPage": "{{ site.url }}{{ page.url }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ page.author }}"
+  }
+}
+</script>
+
